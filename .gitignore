@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS metadata
+.DS_Store
+
+# dotenv files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Testing artifacts
+.pytest_cache/
+*.pytest_cache/
+coverage/
+
+# MyPy and Type Checking
+.mypy_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Celery task queue
+celerybeat-schedule
+
+# Django Migrations
+**/migrations/**
+
+# Other generated files
+*.mo
+*.out
+*.log
